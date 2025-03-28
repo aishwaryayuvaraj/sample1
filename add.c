@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, sum;
+    int num1, num2, r;
 
     // Asking for user input
     printf("Enter two integers: ");
     scanf("%d %d", &num1, &num2);
 
     // Adding the two numbers
-    sum = num1 + num2;
+    r = num1 + num2;
 
     // Displaying the result
-    printf("Sum: %d\n", sum);
+    printf("result: %d\n", r);
 
     return 0;
 }
